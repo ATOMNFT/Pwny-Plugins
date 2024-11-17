@@ -17,7 +17,7 @@ class TeslaStockPrice(plugins.Plugin):
     PRICE_FILE = 'tesla_price.json'  # Path to save the price
     API_URL = "https://www.alphavantage.co/query"
     SYMBOL = "TSLA"  # Tesla stock symbol
-    API_KEY = "4OT29XXPAB8L15Y3"  # Replace with your actual API key
+    API_KEY = "YOUR_API_KEY"  # Replace with your actual API key
 
     def on_loaded(self):
         logging.info("TeslaStockPrice plugin loaded.")
